@@ -8,7 +8,13 @@ def calculate_compound_interest(P, r, t, n=12):
 
 # Streamlit app
 def main():
-    st.title("Multi-Card Credit Card Debt Simulator")
+    st.title("Multi Credit Card Debt Simulator")
+    
+    st.write("""
+Welcome to the **Multi-Card Credit Card Debt Simulator**. This tool helps you simulate the growth of your credit card debts over time based on their APR.
+Add multiple cards, specify the debt amounts and interest rates, and visualize how your debt accumulates over the years.
+""")
+
 
     # Section for adding multiple cards
     st.subheader("Add Credit Cards")
